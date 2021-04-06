@@ -1,0 +1,58 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: monospace;
+    font-weight: 300;
+}
+
+#app {
+    width: 100%;
+    height: 800px;
+    background-image: linear-gradient(#cceb34 0%, #eb9e34 100%)
+}
+
+.container {
+    text-align: center;
+
+}
+
+#my-Carousel {
+    background-color: chartreuse;
+}
+
+#my-Carousel img {
+    height: 300px;
+    margin-top: 35px;
+}
+
+.carousel-inner p {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: cornflowerblue;
+    font-size: 20px;
+}
+
+#Chatbot {
+    width: 100%;
+    height: 800px;
+    background-image: linear-gradient(#eb34eb 0%, #d5eb34 100%)
+}
+
+img {
+    transition: transform .2s;
+}
+
+img:hover {
+    transform: scale(0.9);
+}
+
+.line {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+} 
+
